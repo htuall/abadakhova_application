@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.newauth.Fragments.SignInFragment">
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:text="←"
+        android:textColor="@color/my_purple"
+        android:textStyle="bold"
+        android:textSize="50sp" />
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:id="@+id/emailET"
+        android:textColor="@color/my_purple"
+        android:textColorHint="@color/my_purple"
+        android:inputType="textEmailAddress"
+        android:hint="@string/enter_your_email"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:maxLength="30" />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailET"
+        android:id="@+id/passwordET"
+        android:inputType="textPassword"
+        android:hint="@string/enter_your_password"
+        android:textColorHint="@color/my_purple"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/my_purple"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="30dp"
+        android:maxLength="16"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sign_in_btn"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/my_button"
+        android:backgroundTint="@color/my_purple"
+        android:text="Sign in" />
+
+    <ProgressBar
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/pb"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="225dp"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

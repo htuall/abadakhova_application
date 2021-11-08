@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "186445186861",
+    "project_id": "newauth-23d25",
+    "storage_bucket": "newauth-23d25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186445186861:android:d3bd59d5de8691ca37b5a4",
+        "android_client_info": {
+          "package_name": "com.example.newauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186445186861-37fin3j66is7hts1g151ijcavgsmn8ae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwYFWhQq71T4k1TxWEks6OoXiggJuzefI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186445186861-37fin3j66is7hts1g151ijcavgsmn8ae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

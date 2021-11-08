@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">NewAuth</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="create_user">Create user</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_out">Sign out</string>
+    <string name="user_name">User name</string>
+    <string name="slash">/</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_exp">ExpActivity</string>
+    <string name="text_view">TextView</string>
+    <string name="title_activity_book_profile">BookProfile</string>
+
+    <string name="no_connection">No internet connection! Cannot be translated!</string>
+    <string name="learn">Learn</string>
+    <string name="cross">×</string>
+    <string name="hi_there_i_m_casper">Hi there, I am Casper</string>
+    <string name="your_english_study_companion">Your English study companion</string>
+    <string name="hi_casper">Hi, Casper!</string>
+    <string name="i_already_have_an_account">I already have an account</string>
+</resources>
